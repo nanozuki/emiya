@@ -2,6 +2,7 @@
   FUSE: Filesystem in Userspace
   Copyright (C) 2001-2007  Miklos Szeredi <miklos@szeredi.hu>
   Copyright (C) 2011       Sebastian Pipping <sebastian@pipping.org>
+
   This program can be distributed under the terms of the GNU GPLv2.
   See the file COPYING.
 */
@@ -23,7 +24,6 @@
 
 
 #define FUSE_USE_VERSION 31
-#define _FILE_OFFSET_BITS 64
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
