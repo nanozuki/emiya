@@ -23,6 +23,7 @@
 
 
 #define FUSE_USE_VERSION 31
+#define _FILE_OFFSET_BITS 64
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
